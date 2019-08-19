@@ -1,0 +1,16 @@
+{
+	"name": "clienterrorlog",
+	"version": "1.0.0",
+	"description": "client error log",
+	"main": "index.js",
+	"scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "rm -rf dist && webpack --config ../compile/webpack.dev.js",
+		"build": "rm -rf dist && webpack --progress --config ../compile/webpack.pro.js --display-modules"
+	},
+	"author": "tongshuo",
+	"license": "ISC",
+	"dependencies": {
+		"koa": "^2.7.0"
+	}
+}
